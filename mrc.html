@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midrand Rugby Club</title>
+  <link rel="stylesheet" href="mrc.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <img src="/images/logo.png" alt="Midrand Rugby Club Logo" class="logo">
+    <h1>Midrand Rugby Club</h1>
+    <p class="tagline">One Team, One Dream</p>
+    <a href="#membership" class="cta-btn">Join Now</a>
+    <a href="#about" class="cta-btn">Learn More</a>
+    <a href="#contact" class="cta-btn">Contact Us</a>
+     
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Midrand Rugby Club welcomes players of all ages, races, genders, and skill levels.
+    We are committed to unity through diversity with a shared goal of growth – on and off the field.</p>
+  </section>
+
+  <!-- Training Section -->
+  <section id="training">
+    <h2>Training Schedule</h2>
+    <p>Training Days: Weekly (announced by the club)<br>
+    Time: 16h00 – 18h00<br>
+    Location: Midrand Rugby Club Grounds</p>
+  </section>
+
+  <!-- Membership Form -->
+  <section id="membership">
+    <h2>Membership & Registration</h2>
+    <form>
+      <label>Full Name</label><input type="text" required>
+      <label>Surname</label><input type="text" required>
+      <label>Date of Birth</label><input type="date" required>
+      <label>ID/Passport</label><input type="text" required>
+      <label>Gender</label>
+      <select>
+        <option>Male</option><option>Female</option><option>Other</option>
+      </select>
+      <label>Age Group</label>
+      <select>
+        <option>U9</option><option>U11</option><option>U13</option>
+        <option>U15</option><option>U17</option><option>U19</option><option>Adult</option>
+      </select>
+      <label>School</label><input type="text">
+      <label>Contact Number</label><input type="tel" required>
+      <label>Email</label><input type="email" required>
+      <hr>
+      <h3>Emergency Contact</h3>
+      <label>Primary Contact Name</label><input type="text" required>
+      <label>Relationship</label><input type="text" required>
+      <label>Mobile</label><input type="tel" required>
+      <label>Alternative Contact Name</label><input type="text">
+      <label>Relationship</label><input type="text">
+      <label>Mobile</label><input type="tel">
+      <hr>
+      <h3>Medical Info</h3>
+      <label>Medical Aid Provider</label><input type="text">
+      <label>Medical Aid Number</label><input type="text">
+      <label>Preferred Hospital</label><input type="text">
+      <label>GP Name & Contact</label><input type="text">
+      <label>Allergies/Conditions</label><textarea></textarea>
+      <hr>
+      <h3>Consent</h3>
+      <label><input type="checkbox" required> I consent to use of images/videos for promotion.</label>
+      <label><input type="checkbox" required> I acknowledge the monthly fee of R250.</label>
+      <label><input type="checkbox" required> I accept club rules and responsibilities.</label>
+      <button type="submit" class="cta-btn">Submit</button>
+      <div id="errors"></div>
+    </form>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 44 Alsatian Rd, Glen Austin AH, Midrand<br>
+       📞 +27 (84) 422-2836<br>
+       📧 <a href="mailto:J.P.Sissing@live.co.za">J.P.Sissing@live.co.za</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Midrand Rugby Club | Established 2023</p>
+  </footer>
+  <script src="mrc.js"></script>
+</body>
+</html>
